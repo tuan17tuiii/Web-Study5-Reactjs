@@ -1,0 +1,111 @@
+#item-card-details{
+    font-family: Roboto;
+    padding:5px 8px;
+    display: inline-block;
+    flex-wrap:wrap;
+    width: 388px;
+    height: auto;  
+    border-radius: 8px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    text-align: start;
+}
+#card-card-details{
+  padding: 10px;
+    box-shadow: 0px 0px 1.3px rgb(0, 0, 0);
+    width: 368px;
+    height: auto; 
+    border-radius: 4px; 
+}
+.img-card-details img{
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.price-card-details{
+    display: flex;
+    height: 60px;
+}
+.pr-card-details{
+    float: left;
+    width: 50%;
+}
+.prl-card-details{
+    float: right;
+    width: 50%;
+    display: flex;
+ flex-wrap: wrap;
+}
+#price1-card-details{
+    font-size: 30px;
+color: rgb(10, 211, 10);
+font-weight: bold;
+}
+#price2-card-details{
+    text-decoration: line-through;
+    padding:0px 5px 0px;
+}
+#price3-card-details{
+    background-color: rgb(255, 74, 74);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+ padding:5px 5px 0px;
+}
+
+.btn-card-details{
+    display: flex;
+    padding: 5px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#btn1-card-details{
+    margin: 5px auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(43, 117, 254);
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: bold;
+    border: 0px;
+}
+
+#btn1-card-details:hover{
+
+    background-color: rgb(4, 65, 179);
+
+}
+#btn2-card-details{
+    margin: 5px auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px blue solid;
+ }
+ #btn2-card-details:hover{
+    border: 1px rgb(125, 125, 128) solid;
+    margin: 5px auto;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(118, 118, 118);
+    color: rgb(234, 231, 231);
+    font-size: 23px;
+    font-weight: bold;
+ }
+ .listItems-card-details{
+    padding: 10px 5px 10px;
+ }
+ .listItem-card-details span{
+    padding: 10px 15px 10px 0px;
+    font-size: 20px;
+ }
+ .lastItem-card-details{
+    margin-top: 35px ;
+    font-size: 17px;
+    color: rgb(1, 91, 91);
+ }

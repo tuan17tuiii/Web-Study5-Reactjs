@@ -1,0 +1,55 @@
+#root{
+    font-family: 'Poppins', sans-serif;
+}
+.footer-wapper{
+    width: 100%;
+    background-color: rgba(136, 136, 136, 0.278);
+}
+.footer{
+margin: 10px 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+flex-direction: column;
+}
+.footer-menu{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.footer-item{
+    padding: 5px;
+    width: 18%;   
+}
+.footer-logo1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-item-header{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-item-category a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+.footer-item-category a:hover{
+    text-decoration:underline;
+    color: rgb(3, 91, 255);
+}
+.footer-contact{
+    padding: 15px;
+}
+.footer-contact-header{
+    padding: 15px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-copyright{
+    padding: 10px;
+text-align: center;
+
+}

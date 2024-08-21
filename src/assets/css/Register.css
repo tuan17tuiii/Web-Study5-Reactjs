@@ -1,0 +1,49 @@
+
+.res-wapper{
+width: 800px;
+background-color: rgb(246, 246, 246);
+display: flex;
+justify-content: center;
+}
+.res{
+width: 800px;
+padding: 5px;
+font-size: 20px;
+}
+.res-title{
+    padding: 10px 0;  
+}
+.res-btn button{
+   
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 16px;
+border-radius: 5px;
+border: 0px;
+
+
+}
+
+.res-icon{
+    text-align: center;
+}
+
+.res-btn button:hover{
+   background-color: rgb(220, 219, 219);
+
+}
+
+#btn2{
+    color: rgba(0, 0, 0, 0.659);
+}
+.res-icon{
+    font-size: 23px;
+    padding: 5px;
+}
+.res-text{
+
+}
+.res-link{
+
+}

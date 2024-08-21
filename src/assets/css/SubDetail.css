@@ -1,0 +1,57 @@
+.sub-banner-sub{
+    position:sticky;
+    top:  35px;
+    right: 10px;
+    margin: 0px;
+    padding:0px 0px;
+    z-index: 1;
+    height: 60px;
+    text-align: end;
+    margin: 160px 20px 0px 0;
+
+}
+
+.sub{
+    width: 100%;
+    height: auto;
+    margin: -27px 0 0 0;
+}
+.sub-banner{
+
+      margin-top: -150px;
+    z-index: -2;
+    color: azure;
+  
+  background-image: url("../img/th1.jpg");
+  background-size:cover;
+  width: 100%;
+  height: 350px;
+  text-align: start;
+  
+}
+.sub-banner-title{
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding:80px 0px 20px 100px;
+}
+.sub-banner-tag{
+    font-size: 15px;
+
+    padding: 0px 0px 10px 100px;
+}
+.sub-banner-star{
+    font-size: 17px;
+    padding: 10px 0 10px 100px;
+}
+.sub-banner-star span{
+    color: rgb(255, 255, 54);
+}
+.sub-banner-content{
+    font-size: 17px;
+
+    padding: 0px 0px 0px 100px;
+}
+.sub-banner-content  span{
+color: rgb(10, 173, 10);
+}

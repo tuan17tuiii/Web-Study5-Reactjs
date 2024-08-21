@@ -1,0 +1,30 @@
+.home-wapper{
+    width: 100%;
+}
+.home{
+width: 100%;
+}
+.home-elm{
+    font-size: 22px;
+    padding:  5px;
+}
+.home-elm-tit{
+    font-size: 22px;
+    padding:  5px;
+ font-weight: bold;
+}
+#banner{
+width: 100%;
+}
+#u3,#u2,#u1{
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+}

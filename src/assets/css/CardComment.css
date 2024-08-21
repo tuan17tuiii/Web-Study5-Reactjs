@@ -1,0 +1,23 @@
+
+.cm{
+    color: black;
+    display: flex;
+    text-align: start;
+    border: 1px solid rgba(0, 0, 0, 0.181);
+    padding: 5px;
+    border-radius: 5px;
+}
+.cm-avatar img{
+    margin: 0 10px 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+.cm-name{ padding: 0 0 5px;}
+#cm-name{
+    font-size: 17px;
+    font-weight: bold;
+}
+.cm-star{padding: 0 0 5px;}
+.cm-content{}
