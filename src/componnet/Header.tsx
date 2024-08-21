@@ -13,11 +13,12 @@ function Header(){
     <div className="header">
         <div className="header-logo">STUDY4</div>
         <div className="header-menu">
-            <ul className="header-menu-ul">
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/"> Home</Link></li>
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/CardD"> About</Link></li>
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/Card"> News</Link></li>
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/comment"> News</Link></li>
+            <ul className="header-menu-ul"> 
+
+                <li className="header-menu-item"><Link  className="header-menu-item" to="/home"> Home</Link></li>
+                <li className="header-menu-item"><Link  className="header-menu-item" to="/exam"> Exam</Link></li>
+                <li className="header-menu-item"><Link  className="header-menu-item" to="/Card"> XXX</Link></li>
+                <li className="header-menu-item"><Link  className="header-menu-item" to="/comment"> XXX</Link></li>
                 
                 <li className="header-menu-item">XN</li>
                 <li className="header-menu-item"><button className='header-menu-item-btn-login'><Link  className="header-menu-item" to="/register"> DK</Link></button></li>

@@ -12,10 +12,10 @@ import {
   Route,Routes
 } from "react-router-dom";
 import Register from './componnet/Login/Register.tsx'
-import Loginhook from './componnet/Login/LoginHook.tsx'
 import CardComment from './componnet/Card/CardComment.tsx'
 import CardExam from './componnet/Card/CardExam.tsx'
 import SubjectDetails from './componnet/Page/SubjectDetails.tsx'
+import Exam from './componnet/Page/Exam.tsx'
 
 
 function App() {
@@ -27,12 +27,13 @@ function App() {
    
      <div className="main">
      <Routes>
-        <Route path="/Card" element={<CardExam />} />
-        <Route path="/CardD" element={<CardSubjectDetails />} />
+    
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/comment" element={<CardComment />} />
         <Route path="/subdetail" element={<SubjectDetails />} />
+        <Route path="/exam" element={<Exam />} />
     </Routes>
     </div>
         <Footer/>

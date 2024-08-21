@@ -8,9 +8,35 @@ width: 100%;
     font-size: 22px;
     padding:  5px;
 }
+.home-elm0 {
+    margin-top: 20px;
+    display: flex;
+   justify-content: center;
+}
+.home-elm2 ul{
+    border: 1px rgba(42, 42, 42, 0.163) solid;
+}
+.home-elm2 button{
+width: 80%;
+height: 40px;
+background-color: rgba(13, 13, 204, 0.768);
+color: aliceblue;
+font-size: 22px;
+border-radius: 5px;
+
+}
+.home-elm2 button:hover{
+
+background-color: rgba(11, 11, 165, 0.803);
+
+}
+.home-elm2 ul li{
+  list-style: none;
+  padding: 10px;
+}
 .home-elm-tit{
-    font-size: 22px;
-    padding:  5px;
+    font-size: 27px;
+    padding:  10px;
  font-weight: bold;
 }
 #banner{
@@ -27,4 +53,57 @@ width: 100%;
     width: 30px;
     height: 30px;
     border: 2px solid #fff;
+}
+.home-elm-last{ 
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url("../img/teach.jpg");
+    background-size: contain;
+}
+.home-elm-last h1{  
+color: #ffffff;
+}
+.home-form{
+    
+    padding: 20px 0 0;
+    height: 260px;
+    background-color: #fff;
+    width: 600px;
+    display: block;
+   border: 1px solid rgba(0, 0, 0, 0.553);
+   margin: 0px auto 0px;
+   border-radius:7px ;
+}
+.home-ip{
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    padding: 5px 0;
+    width: 88%;
+    margin: 5px;
+    border-radius:7px ;border-radius:7px ;
+}
+.home-ops{
+    font-size: 20px;
+    padding: 5px 0;
+    width: 89%;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.277);
+    border-radius:7px ;
+}
+.home-op{
+    padding: 5px 0;
+    height: 200px;
+}
+#btn-dk{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 6px;
+    width: 89%;
+
+    height: 40px;
+    border-radius:7px ;
+    background-color: rgba(13, 13, 204, 0.768);
+    color: #fff;
 }

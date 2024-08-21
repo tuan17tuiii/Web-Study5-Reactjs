@@ -1,0 +1,24 @@
+.ex-search ul{
+    display: flex ;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.ex-search ul li {
+padding: 5px;
+margin: 5px;
+}
+.ex-ip{
+width: 60%;
+height: 35px;
+border-radius: 5px 0px 0px 5px;
+border: 0px;
+}
+.ex-icon-seacrh{
+width: 28px;
+font-size: 25px;
+height: 30px;
+padding: 1px 6px 10px;
+background-color: rgb(12, 71, 209);
+border-radius: 0px 5px 5px 0px ;
+}
