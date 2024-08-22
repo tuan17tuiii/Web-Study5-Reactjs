@@ -16,6 +16,7 @@ import CardComment from './componnet/Card/CardComment.tsx'
 import CardExam from './componnet/Card/CardExam.tsx'
 import SubjectDetails from './componnet/Page/SubjectDetails.tsx'
 import Exam from './componnet/Page/Exam.tsx'
+import Blog from './componnet/Page/Blog.tsx'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/comment" element={<CardComment />} />
         <Route path="/subdetail" element={<SubjectDetails />} />
         <Route path="/exam" element={<Exam />} />
+        <Route path="/blog" element={<Blog />} />
     </Routes>
     </div>
         <Footer/>

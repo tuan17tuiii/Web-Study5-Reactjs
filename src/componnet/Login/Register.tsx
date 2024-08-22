@@ -7,6 +7,7 @@ function Register() {
   return (
     <div className='res-wapper'>
       <div className="res">
+        <h1>Dang Nhap</h1>
         <div className="res-title">
           Đăng nhập ngay để bắt đầu trải nghiệm học tiếng Anh và luyện thi TOEIC/IELTS hiệu quả cùng hàng trăm ngàn học viên mỗi ngày.
         </div>

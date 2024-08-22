@@ -1,14 +1,16 @@
 
 .res-wapper{
-width: 800px;
+width: 100%;
 background-color: rgb(246, 246, 246);
 display: flex;
 justify-content: center;
 }
 .res{
-width: 800px;
-padding: 5px;
+width: 50%;
+padding: 0 20px;
 font-size: 20px;
+margin: 20px auto 40px;
+background-color: rgb(223, 223, 223);
 }
 .res-title{
     padding: 10px 0;  
@@ -42,8 +44,8 @@ border: 0px;
     padding: 5px;
 }
 .res-text{
-
+margin: 10px
 }
 .res-link{
-
+margin: 10px;
 }

@@ -6,7 +6,9 @@
     background-color: rgba(136, 136, 136, 0.278);
 }
 .footer{
-margin: 10px 20px;
+    padding: 20px 0;
+    width:80%;
+margin: 10px auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: start;
@@ -41,6 +43,7 @@ justify-content: center;
 }
 .footer-contact{
     padding: 15px;
+    font-size: 20px;
 }
 .footer-contact-header{
     padding: 15px 0px;

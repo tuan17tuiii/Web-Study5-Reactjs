@@ -20,10 +20,10 @@ function Home() {
           <CardSubject /> <CardSubject /><CardSubject />
         </div>
         <div className="home-elm">
-          <img src={bannerkt} alt="" />
+        <img src={bannerkt} alt="" height="300px"  width="70%"/>
         </div>
         <div className="home-elm-tit">Đề thi mới nhất</div>
-        <div className="home-elm">
+        <div className="home-elm-ex">
           <CardExam /> <CardExam />
           <CardExam /> <CardExam />
           <CardExam /> <CardExam />

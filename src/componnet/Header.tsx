@@ -17,11 +17,10 @@ function Header(){
 
                 <li className="header-menu-item"><Link  className="header-menu-item" to="/home"> Home</Link></li>
                 <li className="header-menu-item"><Link  className="header-menu-item" to="/exam"> Exam</Link></li>
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/Card"> XXX</Link></li>
-                <li className="header-menu-item"><Link  className="header-menu-item" to="/comment"> XXX</Link></li>
+                <li className="header-menu-item"><Link  className="header-menu-item" to="/blog"> Blog</Link></li>
                 
                 <li className="header-menu-item">XN</li>
-                <li className="header-menu-item"><button className='header-menu-item-btn-login'><Link  className="header-menu-item" to="/register"> DK</Link></button></li>
+                <li className="header-menu-item"><button className='header-menu-item-btn-login'><Link  className="header-menu-item-link" to="/register">Đăng Nhập</Link></button></li>
             </ul>
         </div>
     </div>
