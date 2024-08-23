@@ -29,6 +29,14 @@ margin: 10px;
 
 
 }
+.blog-category ul li:hover{
+
+    border: 1px solid rgba(0, 0, 0, 0.397);
+  background-color: darkgrey;
+    
+
+
+}
 .blog-category ul{
     width: 100%;
     padding: 0;

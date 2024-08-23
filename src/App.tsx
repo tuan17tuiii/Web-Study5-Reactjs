@@ -17,6 +17,8 @@ import CardExam from './componnet/Card/CardExam.tsx'
 import SubjectDetails from './componnet/Page/SubjectDetails.tsx'
 import Exam from './componnet/Page/Exam.tsx'
 import Blog from './componnet/Page/Blog.tsx'
+import ExamDetai from './componnet/Page/ExamDetai.tsx'
+import Loginhook from './componnet/Login/Loginhook.tsx'
 
 
 function App() {
@@ -33,9 +35,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/comment" element={<CardComment />} />
-        <Route path="/subdetail" element={<SubjectDetails />} />
+        <Route path="/subdetail/:id" element={<SubjectDetails />} />
         <Route path="/exam" element={<Exam />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/examdetail" element={<ExamDetai />} />
+        <Route path="/loginhook" element={<Loginhook />} />
     </Routes>
     </div>
         <Footer/>

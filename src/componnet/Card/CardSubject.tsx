@@ -5,7 +5,7 @@ import { StarOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 function CardSubject() {
     return (
-        <Link to="/subdetail">
+    
         <div id="item">
         <div id="card">  
             <div className="img"><img src={mypth} alt="" /></div>
@@ -21,7 +21,7 @@ function CardSubject() {
 
         </div>
         </div>
-        </Link>
+  
     )
 }
 

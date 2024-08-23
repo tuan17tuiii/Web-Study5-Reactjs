@@ -8,6 +8,7 @@ import us from "/src/assets/img/home_community.webp"
 import { CardSubjectDetails, CardExam, CardSubject } from '../Card'
 import "/src/assets/css/Home.css"
 import { CheckOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='home-wapper'>
@@ -17,7 +18,7 @@ function Home() {
         </div>
         <div className="home-elm-tit">Khoá học online nổi bật</div>
         <div className="home-elm">
-          <CardSubject /> <CardSubject /><CardSubject />
+        <Link to="/subdetail/1">   <CardSubject /> </Link> <CardSubject /><CardSubject />
         </div>
         <div className="home-elm">
         <img src={bannerkt} alt="" height="300px"  width="70%"/>
