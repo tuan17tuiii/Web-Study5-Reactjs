@@ -1,0 +1,61 @@
+
+.exd-wapper{
+    width: 100%;
+
+}
+.exd{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.exd-btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(70, 70, 201, 0.769);
+    color: aliceblue;
+}
+.exd-btn:hover{
+  
+    background-color: rgba(70, 70, 201, 0.944);
+ cursor:pointer; 
+}
+.exd-err{
+
+    border-radius: 10px;
+    background-color: rgba(255, 162, 128, 0.208);
+    padding: 10px;
+
+}
+.exd-point{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exd-comment{
+    width: 80%;
+    margin: 0 auto;
+    
+    }
+    .exd-comment-box{
+        margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgba(199, 199, 199, 0.669);
+    border-radius:10px ;
+    font-size: 20px;
+    }
+    .exd-comment-box-item{
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    .exd-comment-box-item-tit-star{
+    color: rgb(249, 172, 5);
+    }
+    .exd-comment-box2{
+        display: inline;
+        margin: 20px;
+        padding-top: 20px;
+    }

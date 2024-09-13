@@ -1,0 +1,44 @@
+.ced-ex-wapper{
+    color: #000;
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(142, 141, 141, 0.399);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.ced-ex-wapper:hover{
+    
+    background-color: rgb(243, 241, 241);
+    
+}
+.ced-ex{
+    width: 100%;
+
+}
+.ced-ex-title{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.ced-ex-infor{
+    color:grey;
+    margin: 10px 0;
+}
+.ced-ex-tag{
+    color:rgba(35, 51, 176, 0.753);
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.ced-ex-btn button{
+    border: 1px solid blue;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    color:rgba(35, 51, 176, 0.753);
+}

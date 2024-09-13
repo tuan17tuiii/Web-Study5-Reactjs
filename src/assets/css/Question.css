@@ -1,0 +1,21 @@
+.startex{
+    display: flex;
+width: 80%;
+background-color: rgba(239, 237, 237, 0.431);
+border: 1px solid rgba(0, 0, 0, 0.179);
+margin: 10px auto;
+padding: 10px;
+border-radius: 10px;
+text-align: start;
+}
+
+.question {
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  .answers{
+    width: 45%;
+  }

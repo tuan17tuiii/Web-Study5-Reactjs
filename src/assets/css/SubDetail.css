@@ -2,31 +2,31 @@
     position:sticky;
     top:  35px;
     right: 10px;
-    margin: 0px;
     padding:0px 0px;
-    z-index: 1;
+    z-index:1;
     height: 60px;
     text-align: end;
-    margin: 160px 30px 0px 0;
+    margin: 500px 100px 0px 0;
     float: right;
     width: 20%;
 }
 
 .sub{
-    width: 100%;
-    height: auto;
-    margin: -27px 0 0 0;
+    width: 80%;
+    margin: 0 auto  ;
     text-align: center;
 }
 .sub-banner{
-
-      margin-top: -150px;
+  
+  
+    position:absolute;
+      margin-top:0px;
     z-index: -2;
     color: azure;
   
   background-image: url("../img/th1.jpg");
   background-size:cover;
-  width: 100%;
+  width: 80%;
   height: 450px;
   text-align: start;
   
@@ -51,7 +51,6 @@
 }
 .sub-banner-content{
     font-size: 22px;
-
     padding: 0px 0px 5px 100px;
 }
 .sub-banner-content  span{
@@ -59,11 +58,10 @@ color: rgb(10, 173, 10);
 }
 .sub-main-content{
     width: 80%;
-   
+    margin: 480px 0 0;
 }
 .sub-px{
-    width: 70%;
-    margin: 0 auto;
+    width: 80%;
 }
 .sub-menu{
   position: sticky ;  
@@ -175,4 +173,29 @@ padding: 10px;
   
     background-color: rgba(6, 61, 188, 0.876);
   
+}
+.sub-comment{
+width: 100%;
+
+}
+.sub-comment-box{
+    margin: 10px 0;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+border: 1px solid rgba(199, 199, 199, 0.669);
+border-radius:10px ;
+font-size: 20px;
+}
+.sub-comment-box-item{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.sub-comment-box-item-tit-star{
+color: rgb(249, 172, 5);
+}
+.sub-comment-box2{
+    display: inline;
+    margin: 20px;
+    padding-top: 20px;
 }

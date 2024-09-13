@@ -1,5 +1,7 @@
 import React from 'react'
 import "../assets/css/Footer.css"
+import { Link } from 'react-router-dom'
+import { FacebookOutlined, InstagramOutlined, QuestionCircleOutlined, ReadOutlined, TikTokOutlined, TwitterOutlined } from '@ant-design/icons'
 function Footer() {
     return (
         <div className='footer-wapper'>
@@ -8,32 +10,24 @@ function Footer() {
                     <div className="footer-item">
                         <div className="footer-logo1">STUDY4</div>
                         <div className="footer-logo2">© 2021</div>
-                        <div className="footer-logo3">s</div>
+                        <div className="footer-logo3"><FacebookOutlined/> <InstagramOutlined/> <TwitterOutlined/> <TikTokOutlined/> </div>
                     </div>
                     <div className="footer-item">
                         <div className="footer-item-header">Chương trình học</div>
-                        <div className="footer-item-category"><a href="#">122</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                        <div className="footer-item-category"><a href="#">231</a></div>
-                        <div className="footer-item-category"><a href="#">432</a></div>
+                        <div className="footer-item-category"><Link to="/subdetail/1"><ReadOutlined/> IELTS General Reading</Link></div>
+                        <div className="footer-item-category"><Link to="/subdetail/6"><ReadOutlined/> IELTS General Speak</Link></div>
+                        <div className="footer-item-category"><Link to="/subdetail/3"><ReadOutlined/> IELTS General Reading</Link></div>
+                        <div className="footer-item-category"><Link to="/subdetail/3"><ReadOutlined/> IELTS General Reading</Link></div>
+                        <div className="footer-item-category"><Link to="/subdetail/6"><ReadOutlined/> IELTS General Write</Link></div>
                     </div>
+                
+                 
                     <div className="footer-item">
-                        <div className="footer-item-header">Chương trình học</div>
-                        <div className="footer-item-category"><a href="#">122</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div></div>
-                    <div className="footer-item">
-                        <div className="footer-item-header">Chương trình học</div>
-                        <div className="footer-item-category"><a href="#">122</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                    </div>
-                    <div className="footer-item">
-                        <div className="footer-item-header">Chương trình học</div>
-                        <div className="footer-item-category"><a href="#">Chương trình họcChương trình học</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
-                        <div className="footer-item-category"><a href="#">123</a></div>
+                        <div className="footer-item-header">Hỗ trợ</div>
+                        <div className="footer-item-category"><Link to="/guild"><QuestionCircleOutlined/> Hướng dẫn sử dụng</Link></div>
+                        <div className="footer-item-category"><Link to="/guild"><QuestionCircleOutlined/> Hướng dẫn mua hàng</Link></div>
+                        <div className="footer-item-category"><Link to="/guild"><QuestionCircleOutlined/> Hướng dẫn mua hàng</Link></div>
+                        <div className="footer-item-category"><Link to="/guild"><QuestionCircleOutlined/> Hướng dẫn mua hàng</Link></div>
                     </div>
                 </div>
                 <div className="footer-contact">

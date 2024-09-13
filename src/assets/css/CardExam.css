@@ -25,6 +25,7 @@ background-color: rgb(235, 232, 232);
 .c-ex-infor{
     color:grey;
     margin: 10px 0;
+    font-size: 15px;
 }
 .c-ex-tag{
     color:rgba(35, 51, 176, 0.753);

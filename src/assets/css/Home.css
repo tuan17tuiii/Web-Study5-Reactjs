@@ -2,17 +2,21 @@
     width: 100%;
 }
 .home{
-width: 100%;
+width: 80%;
+margin: 0 auto;
 }
 .home-elm{
     font-size: 22px;
     padding:  5px;
 }
+.home-elm img{
+   width: 100%;
+}
 .home-elm-ex{
     font-size: 22px;
     padding:  5px;
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+  
 }
 .home-elm0 {
     margin-top: 20px;

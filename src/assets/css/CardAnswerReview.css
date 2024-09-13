@@ -1,0 +1,37 @@
+.answer {
+    display: block;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .answer input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+  }
+  
+  .answer:hover {
+    background-color: #e6f7ff;
+    border-color: #007BFF;
+  }
+  
+  .answer input[type="radio"]:checked + label {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+    text-align: start;
+  }
+  .cardAnser{
+    width: 100%;
+  }
+.ok{
+    background-color: rgba(52, 255, 37, 0.664);
+} 
+.no{
+    background-color: rgba(255, 37, 37, 0.585);
+} 

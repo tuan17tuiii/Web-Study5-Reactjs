@@ -1,0 +1,23 @@
+.ex-ss-wapper{
+background-color: rgb(255, 255, 255);
+width: 100%;
+
+border: 1px solid rgb(203, 200, 200);
+}
+.ex-ss-wapper1{
+    width: 80%;
+    margin: 0 auto;
+}
+.sx-ss-main{
+    color: azure;
+    padding: 10px;
+    height: 300px;
+    background-image: url("../img/nen_ss2.jpg");
+    background-size: cover; /* Tỷ lệ tự động điều chỉnh để phủ toàn bộ */
+    background-position: center; /* Giữ hình ảnh căn giữa */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+}
+.point{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,9 +1,11 @@
 #root{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 .footer-wapper{
+    position:sticky;
     width: 100%;
-    background-color: rgba(136, 136, 136, 0.278);
+    background-color: rgb(247, 247, 247);
+    z-index:100;
 }
 .footer{
     padding: 20px 0;
@@ -18,22 +20,33 @@ flex-direction: column;
 width: 100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content:space-between;
 }
 .footer-item{
-    padding: 5px;
-    width: 18%;   
+   
+    padding: 0 20px;
+    width: 30%;   
 }
 .footer-logo1{
     font-size: 30px;
     font-weight: bold;
 }
+.footer-logo3{
+    margin:8px 8px 8px 0px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
 .footer-item-header{
     font-size: 22px;
     font-weight: bold;
 }
+.footer-item-category{
+   margin: 15px 0;
+}
 .footer-item-category a{
     font-size: 20px;
+
     text-decoration: none;
     color: rgb(101, 101, 101);
 }

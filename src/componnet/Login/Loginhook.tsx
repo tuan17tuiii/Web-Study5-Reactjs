@@ -2,9 +2,9 @@ import { userInfo } from 'os';
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useLocation } from 'react-router-dom';
-const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "";
+const clientId = import.meta.env.VITE_APP_GOOGLE_CLIENT || "";
 const urlredirect: string = "http://localhost:5173/loginhook";
-const clientSecret = process.env.REACT_APP_GOOGLE_CLIENT_SECRET||"";
+const clientSecret = import.meta.env.VITE_APP_GOOGLE_CLIENT_SECRET || "";
 const url = "https://oauth2.googleapis.com/token";
 type OAuth = {
     state: string,
@@ -21,7 +21,7 @@ function useQuery() {
 
 
 function Loginhook() {
-let userInforr=null;
+    let userInforr = null;
     const query = useQuery();
 
     const oauth = (): OAuth => {
@@ -58,7 +58,7 @@ let userInforr=null;
         })
         .then(data => {
             console.log('Access Token:', data.access_token);
-            const accessToken :string = data.access_token; // Access Token mà bạn đã nhận được
+            const accessToken: string = data.access_token; // Access Token mà bạn đã nhận được
 
             // Endpoint để lấy thông tin người dùng
             const userInfoUrl = 'https://www.googleapis.com/oauth2/v3/userinfo';
@@ -76,8 +76,8 @@ let userInforr=null;
                     return response.json();
                 })
                 .then(userInfo => {
-                    console.log('User Info:', userInfo); 
-                    userInforr    = userInfo// Xuất thông tin người dùng
+                    console.log('User Info:', userInfo);
+                    userInforr = userInfo// Xuất thông tin người dùng
                 })
                 .catch(error => {
                     console.error('Error fetching user info:', error);
@@ -90,7 +90,7 @@ let userInforr=null;
 
     return (
         <div>
-          helle
+            helle
         </div>
 
     )

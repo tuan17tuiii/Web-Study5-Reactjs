@@ -16,13 +16,22 @@
     margin: 0 auto;
     font-size: 22px;
     border: 1px solid rgba(94, 94, 94, 0.313);
+    background-color: rgb(249, 249, 249);
     border-radius: 10px;
 }
 .ex-search button {
     width: 20%;
     height: 40px;
     margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(32, 118, 210, 0.714);
     padding: 13px 0;
+}
+.ex-search button:hover {
+
+    background-color: rgba(32, 118, 210, 0.909);
+
 }
 #all{
     font-weight: bold;
@@ -34,10 +43,10 @@ margin: 5px;
 font-size: 22px;
 }
 .ex-ip{
-width: 79%;
+width: 90%;
 height: 35px;
-border-radius: 5px 0px 0px 5px;
-border: 1px solid black;
+
+
 margin: 0 auto;
 text-align: center;
 font-size:
@@ -45,3 +54,16 @@ font-size:
 }
 .ex-list{}
 .ex.kt img{ height: 100px;}
+
+.ex-examedd{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    border: 1px solid rgb(205, 204, 204);
+}
+.ex-examedd:hover,
+.ex-select{
+    background-color: rgba(49, 76, 166, 0.871);
+    color: antiquewhite;
+}
